@@ -1,0 +1,261 @@
+[
+    {
+        "emailId": 1,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 2,
+        "status": "Flagged",
+        "categories": [
+            "Change in Communication"
+        ],
+        "evidence": [
+            "Feel free to ding me on whatsapp anytime."
+        ],
+        "reason": [
+            "The email explicitly suggests moving communication to WhatsApp, which is a personal and potentially unmonitored channel, raising concerns about avoiding compliance monitoring or record retention."
+        ],
+        "risk_score": 46,
+        "priority": "Medium"
+    },
+    {
+        "emailId": 3,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 4,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 5,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 6,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 7,
+        "status": "Flagged",
+        "categories": [
+            "Market Manipulation",
+            "Secrecy"
+        ],
+        "evidence": [
+            "If we execute our orders around the same time during the opening session, we may achieve the desired market movement.",
+            "Please keep this confidential"
+        ],
+        "reason": [
+            "The statement 'If we execute our orders around the same time during the opening session, we may achieve the desired market movement.' suggests coordinated trading activity intended to influence market behavior, which warrants review under the 'Market Manipulation' category.",
+            "The phrase 'Please keep this confidential' combined with the context of coordinated trading suggests an attempt to conceal the activity, which warrants review under the 'Secrecy' category."
+        ],
+        "risk_score": 100,
+        "priority": "Critical"
+    },
+    {
+        "emailId": 8,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 9,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 10,
+        "status": "Compliant",
+        "categories": [],
+        "evidence": [],
+        "reason": [],
+        "risk_score": 0,
+        "priority": "Low"
+    },
+    {
+        "emailId": 11,
+        "status": "Flagged",
+        "categories": [
+            "Secrecy",
+            "Change in Communication"
+        ],
+        "evidence": [
+            "Let's avoid including the broader team on this matter.",
+            "Please delete this email after reviewing."
+        ],
+        "reason": [
+            "The statement 'Let's avoid including the broader team on this matter.' suggests an intent to restrict visibility of information or activities, which warrants review under the 'Secrecy' category.",
+            "The instruction 'Please delete this email after reviewing.' indicates an attempt to delete records, which aligns with the 'Secrecy' category.",
+            "The overall tone and instruction to delete the email suggest an effort to move communication away from traceable or auditable channels, which warrants review under the 'Change in Communication' category."
+        ],
+        "risk_score": 73,
+        "priority": "High"
+    },
+    {
+        "emailId": 12,
+        "status": "Flagged",
+        "categories": [
+            "Market Manipulation"
+        ],
+        "evidence": [
+            "Coordinating activity during the opening session may influence market perception. Let's stay aligned on timing."
+        ],
+        "reason": [
+            "The email suggests coordinated trading activity during the opening session, which may influence market perception, aligning with the definition of Market Manipulation."
+        ],
+        "risk_score": 86,
+        "priority": "High"
+    },
+    {
+        "emailId": 13,
+        "status": "Flagged",
+        "categories": [
+            "Market Bribery"
+        ],
+        "evidence": [
+            "As discussed, we would like to offer a special incentive if our proposal receives favorable consideration."
+        ],
+        "reason": [
+            "The email explicitly mentions offering a 'special incentive' tied to 'favorable consideration' of a proposal, which suggests an attempt to improperly influence a business decision through incentives."
+        ],
+        "risk_score": 83,
+        "priority": "High"
+    },
+    {
+        "emailId": 14,
+        "status": "Flagged",
+        "categories": [
+            "Change in Communication"
+        ],
+        "evidence": [
+            "Please contact me using my personal email for future discussions regarding this project."
+        ],
+        "reason": [
+            "The email explicitly requests moving business discussions to a personal, unofficial, and unmonitored communication channel, which may indicate an attempt to avoid compliance monitoring or record retention."
+        ],
+        "risk_score": 48,
+        "priority": "Medium"
+    },
+    {
+        "emailId": 15,
+        "status": "Flagged",
+        "categories": [
+            "Complaints"
+        ],
+        "evidence": [
+            "Several team members have expressed concerns about inconsistent treatment and lack of transparency in task assignments."
+        ],
+        "reason": [
+            "The email explicitly mentions concerns raised by team members regarding inconsistent treatment and lack of transparency in task assignments, which aligns with the definition of 'Complaints' as dissatisfaction or grievances that may require review or escalation."
+        ],
+        "risk_score": 51,
+        "priority": "Medium"
+    },
+    {
+        "emailId": 16,
+        "status": "Flagged",
+        "categories": [
+            "Employee Ethics"
+        ],
+        "evidence": [
+            "I would like guidance regarding a potential conflict of interest involving a business relationship with a vendor."
+        ],
+        "reason": [
+            "The email explicitly mentions a potential conflict of interest involving a business relationship with a vendor, which warrants compliance review under the 'Employee Ethics' category."
+        ],
+        "risk_score": 73,
+        "priority": "High"
+    },
+    {
+        "emailId": 17,
+        "status": "Flagged",
+        "categories": [
+            "Employee Ethics"
+        ],
+        "evidence": [
+            "I observed behavior that may not align with the organization's code of conduct and would like to report it for review."
+        ],
+        "reason": [
+            "The email explicitly mentions observing behavior that may not align with the organization's code of conduct, which suggests a potential violation of ethical standards or company policies."
+        ],
+        "risk_score": 71,
+        "priority": "High"
+    },
+    {
+        "emailId": 18,
+        "status": "Flagged",
+        "categories": [
+            "Complaints"
+        ],
+        "evidence": [
+            "The current workload distribution appears unfair and is negatively affecting productivity and morale."
+        ],
+        "reason": [
+            "The email raises dissatisfaction and concerns about workload distribution, productivity, and morale, which align with the definition of a formal workplace complaint requiring review or escalation."
+        ],
+        "risk_score": 51,
+        "priority": "Medium"
+    },
+    {
+        "emailId": 19,
+        "status": "Flagged",
+        "categories": [
+            "Employee Ethics"
+        ],
+        "evidence": [
+            "I have observed actions that may not comply with company policies. I believe the matter warrants further investigation."
+        ],
+        "reason": [
+            "The email explicitly mentions observed actions that may not comply with company policies, which suggests a potential violation of ethical standards or company policies and warrants compliance review."
+        ],
+        "risk_score": 71,
+        "priority": "High"
+    },
+    {
+        "emailId": 20,
+        "status": "Flagged",
+        "categories": [
+            "Change in Communication"
+        ],
+        "evidence": [
+            "Let's keep it secret and discuss in cafeteria."
+        ],
+        "reason": [
+            "The email suggests moving discussions to an unofficial and unmonitored communication channel (cafeteria), which may reduce traceability or oversight of communications."
+        ],
+        "risk_score": 42,
+        "priority": "Medium"
+    }
+]
